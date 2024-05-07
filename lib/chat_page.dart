@@ -27,7 +27,7 @@ class _ChatPageState extends State<ChatPage> {
   ];
 
   final TextEditingController chatMessageController = TextEditingController();
-  
+
 
   @override
   Widget build(BuildContext context) {
@@ -51,7 +51,7 @@ class _ChatPageState extends State<ChatPage> {
                           decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(8),
                             color: chatData[index].isDoctor
-                                ? Color(0xFF075E54)
+                                // ? Color(0xFF075E54)
                                 : Color(0xFF26292E),
                           ),
                           child: Column(
