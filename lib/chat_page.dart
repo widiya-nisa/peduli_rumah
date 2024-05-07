@@ -27,6 +27,7 @@ class _ChatPageState extends State<ChatPage> {
   ];
 
   final TextEditingController chatMessageController = TextEditingController();
+  
 
   @override
   Widget build(BuildContext context) {
